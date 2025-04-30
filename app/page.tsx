@@ -1,4 +1,4 @@
-import Feed from "@components/Feed";
+
 export const Home = () => {
   return (
     <section className="w-full flex flex-col items-center mt-10">
@@ -12,7 +12,6 @@ export const Home = () => {
       </p>
 
       {/*Feed*/}
-      <Feed />
     </section>
 
   )
